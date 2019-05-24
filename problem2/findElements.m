@@ -23,12 +23,14 @@
    # L
    SecondPoincare11 = FirstPoincare11
    
-   # ݜ銠  SecondPoincare12 = sqrt(2 * (capL - capG)) * cos(g + theta)
+   # ݜ銠 - this is epsilon 
+   SecondPoincare12 = sqrt(2 * (capL - capG)) * cos(g + theta)
 
    # p
    SecondPoincare13 = sqrt(2 * (capG - capTheta)) * cos(theta)
 
-   # λ = l + g + ݜ㊠  SecondPoincare21 = FirstPoincare21
+   # λ = l + g + ݜ㊠ (this is lower theta)  
+   SecondPoincare21 = FirstPoincare21
 
    # η
    SecondPoincare22 = -sqrt(2 * (capL - capG)) * sin(g + theta)
