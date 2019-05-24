@@ -3,17 +3,17 @@
     g = (w - Omega) * pi/180;
     i = i * pi/180;
 
-    Tita = [ cos(tita), -sin(tita), 0;
-                sin(tita),  cos(tita), 0;
-                  0     ,       0    , 1];
+    Tita = [cos(tita), -sin(tita), 0;
+            sin(tita),  cos(tita), 0;
+                    0,          0, 1];
                    
-       I = [ cos(i), 0  , -sin(i);
-                 0    , 1  ,    0   ;
-             sin(i), 0  ,  cos(i)];
+       I = [cos(i), 0, -sin(i);
+                 0, 1,    0   ;
+            sin(i), 0,  cos(i)];
              
-       G = [ cos(g), -sin(g), 0;
-             sin(g),  cos(g), 0;
-                 0    ,    0  , 1] ;
+       G = [cos(g), -sin(g), 0;
+            sin(g),  cos(g), 0;
+                 0,       0, 1];
         
     Q = Tita*I*G;
     
