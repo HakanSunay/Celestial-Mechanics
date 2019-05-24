@@ -25,7 +25,7 @@ time = 2.324435318
 ## How to run the files?
 I personally used https://octave-online.net/. 
 
-* Upload the files to https://octave-online.net/.
+* Upload problem1/ and problem2/ to https://octave-online.net/.
 
 * Locate prob1.m and click **Run**.
 * Do the same for prob2.m.
