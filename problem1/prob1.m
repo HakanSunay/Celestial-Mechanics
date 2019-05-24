@@ -12,7 +12,7 @@ time=2.324435318;
 
 for i=1:9
     disp(['Planet №', num2str(i)])
-    solvePlanet(nasaData(i,1),nasaData(i,2),nasaData(i,3),
-                nasaData(i,4),nasaData(i,5),nasaData(i,6),
-                nasaData(i,7),time)    
+    solvePlanet(nasaData(i, 1), nasaData(i, 2), nasaData(i, 3),
+                nasaData(i, 4), nasaData(i, 5), nasaData(i, 6),
+                nasaData(i, 7), time)    
 end
