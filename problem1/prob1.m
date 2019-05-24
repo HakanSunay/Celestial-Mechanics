@@ -9,10 +9,8 @@
           39.482 0.248 17.140 238.929 224.068 110.303 1/135000000];
 
 time=2.324435318;
-# dani_time = 2.65571526352;
 
 for i=1:9
-    #disp('planet'+ i)
     disp(['Planet №', num2str(i)])
     solvePlanet(nasaData(i,1),nasaData(i,2),nasaData(i,3),
                 nasaData(i,4),nasaData(i,5),nasaData(i,6),
